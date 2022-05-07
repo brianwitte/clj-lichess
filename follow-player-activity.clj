@@ -7,7 +7,7 @@
 (def resp
   (curl/get "https://lichess.org/api/user/CookingRooks/perf/blitz"
             {:headers
-             {"Authorization" (str "Bearer " "lip_mgVp4Dt2vRjqnUloaOC1")}}))
+             {"Authorization" (str "Bearer " "")}}))
 
 
 (json/parse-string (:body resp)) ;;=> {"code" 200, "description" "OK"}
