@@ -9,3 +9,6 @@ pom.xml
 /target
 
 env.edn
+
+.clj-kondo/.cache
+.lsp/.cache
